@@ -1,0 +1,85 @@
+
+.container{
+	width:900px;
+	margin:0px auto;
+	background:#d4d4d4;
+	
+}
+.header{
+	background:#333;
+	padding:4px;
+}
+.header h1{
+	text-align:center;
+	color:#fff;
+}
+.footer p{
+	text-align:center;
+	color:#fff;
+}
+.footer{
+	background:#333;
+	padding:4px;
+}
+/*Css for textboxes*/
+
+input[type='text']
+{
+	height:30px;
+	width:100%;
+	border-radius:4px;
+	border:1px solid #666;
+}
+textarea{
+	width:100%;
+	border-radius:4px;
+	border:1px solid #666;
+	height:200px;
+}
+input[type='submit']
+{
+	background:#666;
+	color:#fff;
+	padding:8px 15px;
+	border:none;
+}
+input[type='submit']:hover{
+	background:#333;
+}
+table{border-collapse:collapse;}
+table td{padding:10px;}
+ul.pmenu{
+	text-align:right;
+	margin-right:30px;
+	margin-bottom:30px;
+}
+ul.pmenu li{
+	list-style-type:none;
+	display:inline-block;
+	background:#666;
+	padding:6px;
+}
+ul.pmenu li:hover{
+	background:#333;
+}
+ul.pmenu li a{
+	color:#fff;
+	text-decoration:none;
+}
+.wrong{
+	text-align:center;
+	padding:10px;
+}
+.success{
+	text-align:center;
+	color:white;
+	background-color:green;
+	padding:10px;
+}
+.error{
+	text-align:center;
+	color:white;
+	background-color:red;
+	padding:10px;
+}
+
